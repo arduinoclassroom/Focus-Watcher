@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const startProgressLoop = () => {
         clearInterval(progressInterval);
-        progressInterval = setInterval(updateProgress, 500);
+        progressInterval = setInterval(updateProgress, 100);
     };
 
     // Auto-Hide Controls Logic
