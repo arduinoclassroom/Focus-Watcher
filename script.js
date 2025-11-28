@@ -26,7 +26,6 @@
 
     // Controls
     const playPauseButton = document.getElementById('play-pause-button');
-    const stopButton = document.getElementById('stop-button');
     const volumeButton = document.getElementById('volume-button');
     const volumeSlider = document.getElementById('volume-slider');
     const speedButton = document.getElementById('speed-button');
@@ -260,14 +259,6 @@
         }
     }
 
-    function stopVideo() {
-        if (!player) return;
-
-        player.pauseVideo();
-        player.seekTo(0);
-        replayOverlay.classList.remove('active');
-    }
-
     function toggleMute() {
         if (!player) return;
 
@@ -382,7 +373,6 @@
 
     // Player Controls
     playPauseButton.addEventListener('click', togglePlayPause);
-    stopButton.addEventListener('click', stopVideo);
     volumeButton.addEventListener('click', toggleMute);
     volumeSlider.addEventListener('input', (e) => setVolume(e.target.value));
     speedButton.addEventListener('click', cycleSpeed);
