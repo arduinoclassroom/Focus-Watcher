@@ -28,6 +28,7 @@ Since this is a static website (HTML/CSS/JS), it can be hosted for free on GitHu
 2.  Upload all files from this folder to the repository.
 3.  Go to **Settings** > **Pages**.
 4.  Select the `main` branch and click **Save**.
-5.  Your site will be live [here](arduinoclassroom.github.io/Focus-Watcher).
+5.  Your site will be live [here](https://arduinoclassroom.github.io/Focus-Watcher).
+
 
 
